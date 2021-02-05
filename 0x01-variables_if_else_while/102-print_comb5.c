@@ -21,18 +21,18 @@ for (d4 = d2 + 1; d4 <= 57; d4++)
 {
 putchar(d1);
 putchar(d2);
-putchar(' ');
+putchar(32);
 putchar(d3);
 putchar(d4);
 if (!((d1 == 57 && d2 == 56) && (d3 == 57 && d4 == 57)))
 {
-putchar(',');
-putchar(' ');
+putchar(44);
+putchar(32);
 }
 }
 }
 }
 }
-putchar('\n');
+putchar(10);
 return (0);
 }
