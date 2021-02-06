@@ -25,7 +25,7 @@ putchar(d2);
 putchar(32);
 putchar(d3);
 putchar(d4);
-if (!(d2 == 56 && d4 == 57))
+if (!(d1 == 57 && d2 == 56))
 {
 putchar(44);
 putchar(32);
