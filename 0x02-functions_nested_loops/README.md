@@ -1,4 +1,4 @@
-Functions, nested loops
+<h1>Functions, nested loops</h1>
 
 What are nested loops and how to use them<br>
 What is a function and how do you use functions<br>
