@@ -8,19 +8,19 @@
 int main(void)
 {
 	int counter;
-       	long a = 0;
-	long b = 2;
-	long c;
+       	unsigned long a = 0;
+	unsigned long b = 2;
+	unsigned long c;
 
 	for (counter = 1; counter < 50; counter++)
 	{
 		c = a + b;
-		printf("%li, ", c);
+		printf("%lu, ", c);
 		a = b;
 		b = c;
 	}
 	c = a + b;
-	printf("%li\", c);
+	printf("%lu\n", c);
 
 	return (0);
 }
