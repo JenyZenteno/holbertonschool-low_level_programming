@@ -9,8 +9,8 @@ int main(void)
 {
 	int counter;
 	int countto = 50;
-	long a = 1;
-	long b = 2;
+	long int a = 1;
+	long int b = 2;
 
 	for (counter = 1; counter <= (countto / 2); counter++)
 	{
