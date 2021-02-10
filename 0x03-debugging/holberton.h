@@ -1,6 +1,9 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+# include <unistd.h>
+# include <stdio.h>
+
 /**
  * positive_or_negative - evaluate if a number is possitive
  * @i: The character to evaluate
