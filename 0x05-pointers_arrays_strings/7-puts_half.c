@@ -1,22 +1,5 @@
 #include "holberton.h"
-
-/**
- * _length - returns the length of a string
- * @s: string
- * Return: length
- */
-
-int _strlen(char *s)
-{
-	int length =  0;
-
-	while (*s != '\0')
-	{
-		length++;
-		s++;
-	}
-	return (length);
-}
+#include "2-strlen.c"
 
 /**
  * puts_half - prints half of a string, followed by a new line
