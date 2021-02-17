@@ -1,22 +1,5 @@
 #include "holberton.h"
-
-/**
- * _length - returns the length of a string
- * @s: string
- * Return: length
- */
-
-int _strlen(char *s)
-{
-	int length =  0;
-
-	while (*s != '\0')
-	{
-		length++;
-		s++;
-	}
-	return (length);
-}
+#include "2-strlen.c"
 
 /**
  * _strcpy - copies the string pointed to by src,
@@ -31,6 +14,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 	int lenght = _strlen(src);
+
 	while (i <= lenght)
 	{
 		dest[i] = src[i];
